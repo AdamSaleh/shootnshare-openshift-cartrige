@@ -1,0 +1,12 @@
+08:41:47,135 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-15) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+08:41:47,375 INFO  [org.jboss.web] (ServerService Thread Pool -- 57) JBAS018224: Unregister web context: /auth
+08:41:47,375 INFO  [org.jboss.web] (ServerService Thread Pool -- 56) JBAS018224: Unregister web context: /ag-push
+08:41:47,471 INFO  [org.apache.catalina.core] (MSC service thread 1-8) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+08:41:47,570 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-7) JBWEB003075: Coyote HTTP/1.1 pausing on: http-/127.0.0.1:8080
+08:41:47,571 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-7) JBWEB003077: Coyote HTTP/1.1 stopping on : http-/127.0.0.1:8080
+08:41:47,888 INFO  [org.jboss.weld.deployer] (MSC service thread 1-10) JBAS016009: Stopping weld service for deployment unifiedpush-server-as7.war
+08:41:48,098 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 65) JBAS011403: Stopping Persistence Unit Service 'unifiedpush-server-as7.war#unifiedpush-default'
+08:41:48,103 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015877: Stopped deployment unifiedpush-h2-ds.xml (runtime-name: unifiedpush-h2-ds.xml) in 974ms
+08:41:48,237 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment unifiedpush-server-as7.war (runtime-name: unifiedpush-server-as7.war) in 1209ms
+08:41:49,280 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-12) JBAS015877: Stopped deployment unifiedpush-auth-server.war (runtime-name: unifiedpush-auth-server.war) in 2254ms
+08:41:49,346 INFO  [org.jboss.as] (MSC service thread 1-16) JBAS015950: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) stopped in 2214ms
