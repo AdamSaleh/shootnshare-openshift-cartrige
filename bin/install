@@ -8,8 +8,7 @@ ln -s ${OPENSHIFT_UNIFIED_PUSH_DIR}/standalone/log ${OPENSHIFT_UNIFIED_PUSH_DIR}
 
 # Install the Unified Push Server WARs (auth and core)
 cp ${OPENSHIFT_UNIFIED_PUSH_DIR}/versions/${version}/standalone/deployments/ROOT.war $OPENSHIFT_UNIFIED_PUSH_DIR/standalone/deployments
-cp ${OPENSHIFT_UNIFIED_PUSH_DIR}/versions/${version}/standalone/deployments/unified-push-auth-server.war $OPENSHIFT_UNIFIED_PUSH_DIR/standalone/deployments
-cp ${OPENSHIFT_UNIFIED_PUSH_DIR}/versions/${version}/standalone/deployments/unified-push-server.war $OPENSHIFT_UNIFIED_PUSH_DIR/standalone/deployments
+cp ${OPENSHIFT_UNIFIED_PUSH_DIR}/versions/${version}/standalone/deployments/shoot.war $OPENSHIFT_UNIFIED_PUSH_DIR/standalone/deployments
 
 
 JBOSS_HOME=/etc/alternatives/jbosseap-6
